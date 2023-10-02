@@ -23,5 +23,10 @@
 .home-banner-title {
     font-size: 5em;
     color: #fff;
-    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+}
+
+@media screen and (min-width: 900px) {
+    .home-banner-title {
+        font-size: 7em;
+    }
 }
