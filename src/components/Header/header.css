@@ -1,0 +1,29 @@
+nav {
+    background: linear-gradient(#ff00ea, #f59ced);
+    position: fixed;
+}
+
+.nav-item {
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.nav-item:hover {
+    background-color: #c500b5;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 576px) {
+    .nav-item  {
+        padding: 8px 12px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+}
