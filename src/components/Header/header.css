@@ -1,6 +1,11 @@
 nav {
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
     background: linear-gradient(#ff00ea, #f59ced);
-    position: fixed;
+    z-index: 200;
 }
 
 .nav-item {

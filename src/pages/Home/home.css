@@ -1,0 +1,27 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.home-banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../../../public/images/banner.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(https://annaspasteleria.com/images/2019post/_videoCover/IMG_4255edit.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.home-banner-title {
+    font-size: 5em;
+    color: #fff;
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+}
